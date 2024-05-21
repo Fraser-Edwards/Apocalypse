@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8bfa9d59d25514449a43d311c26c24c0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - missileVFX: {fileID: 6952858681959340313, guid: b034c26bfeb99fa4592a0f7b3fe7febf,
+      type: 3}
+  - nukeVFX: {fileID: 4561919052727719346, guid: 76096d04524f468498e56fc1e5fc624f,
+      type: 3}
+  - camAnim: {instanceID: 0}
+  - nukeSFX: {instanceID: 0}
+  - missileSFX: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
