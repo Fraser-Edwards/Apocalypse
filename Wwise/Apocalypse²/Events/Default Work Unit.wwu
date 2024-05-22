@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F32932FD-DFE7-4A3C-AA7C-C0F15EE2D49C}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{F32932FD-DFE7-4A3C-AA7C-C0F15EE2D49C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F32932FD-DFE7-4A3C-AA7C-C0F15EE2D49C}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="character_locomotion" ID="{03126709-4EFB-4645-8022-47B1E14B0122}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

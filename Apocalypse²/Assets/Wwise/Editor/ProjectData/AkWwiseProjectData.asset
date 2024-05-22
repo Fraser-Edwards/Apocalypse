@@ -331,9 +331,39 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 5e8c7849e787eb4a9ea7c36431472815
     GuidInternal: 
-    m_lastTime: -8584852876372969329
-    List: []
+    m_lastTime: -8584852632929560121
+    List:
+    - name: Main
+      guid: 92f6c6a08cc0a94db0a4d97d07b1360b
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e8c7849e787eb4a9ea7c36431472815
+      - ElementName: Main
+        ObjectType: 7
+        guid: 92f6c6a08cc0a94db0a4d97d07b1360b
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
+  - PhysicalPath: Events\character_locomotion.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+    - ElementName: character_locomotion
+      ObjectType: 12
+      guid: 09671203fb4e4546802247b1e14b0122
+    ParentPath: Events\Default Work Unit\character_locomotion
+    guid: 09671203fb4e4546802247b1e14b0122
+    GuidInternal: 
+    m_lastTime: -8584852642815616578
+    List: []
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -345,8 +375,119 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
     GuidInternal: 
-    m_lastTime: -8584852876372259566
+    m_lastTime: -8584852642815835703
     List: []
+  - PhysicalPath: Events\footsteps.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+    - ElementName: character_locomotion
+      ObjectType: 12
+      guid: 09671203fb4e4546802247b1e14b0122
+    - ElementName: footsteps
+      ObjectType: 12
+      guid: f83d3c9390cc534b8efc22eb927db47d
+    ParentPath: Events\Default Work Unit\character_locomotion\footsteps
+    guid: f83d3c9390cc534b8efc22eb927db47d
+    GuidInternal: 
+    m_lastTime: -8584852633124985006
+    List:
+    - name: fs_char_leftfootrun
+      guid: 2612283306761b42a102ec12eaf8fe7d
+      id: 3778170452
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+      - ElementName: character_locomotion
+        ObjectType: 12
+        guid: 09671203fb4e4546802247b1e14b0122
+      - ElementName: footsteps
+        ObjectType: 12
+        guid: f83d3c9390cc534b8efc22eb927db47d
+      - ElementName: fs_char_leftfootrun
+        ObjectType: 3
+        guid: 2612283306761b42a102ec12eaf8fe7d
+      Path: Events\Default Work Unit\character_locomotion\footsteps\fs_char_leftfootrun
+      maxAttenuation: 0
+      maxDuration: 0.384125
+      minDuration: 0.20064583
+    - name: fs_char_leftfootwalk
+      guid: 177358b2d2c6cf4a9eeb433b6a7b8743
+      id: 569793762
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+      - ElementName: character_locomotion
+        ObjectType: 12
+        guid: 09671203fb4e4546802247b1e14b0122
+      - ElementName: footsteps
+        ObjectType: 12
+        guid: f83d3c9390cc534b8efc22eb927db47d
+      - ElementName: fs_char_leftfootwalk
+        ObjectType: 3
+        guid: 177358b2d2c6cf4a9eeb433b6a7b8743
+      Path: Events\Default Work Unit\character_locomotion\footsteps\fs_char_leftfootwalk
+      maxAttenuation: 0
+      maxDuration: 0.33122918
+      minDuration: 0.33069792
+    - name: fs_char_rightfootrun
+      guid: 42a6341615b23548a21cfe912eda1110
+      id: 904669703
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+      - ElementName: character_locomotion
+        ObjectType: 12
+        guid: 09671203fb4e4546802247b1e14b0122
+      - ElementName: footsteps
+        ObjectType: 12
+        guid: f83d3c9390cc534b8efc22eb927db47d
+      - ElementName: fs_char_rightfootrun
+        ObjectType: 3
+        guid: 42a6341615b23548a21cfe912eda1110
+      Path: Events\Default Work Unit\character_locomotion\footsteps\fs_char_rightfootrun
+      maxAttenuation: 0
+      maxDuration: 0.3658125
+      minDuration: 0.229625
+    - name: fs_char_rightfootwalk
+      guid: 5725458425af1d4cb4990d0f8568369c
+      id: 113527723
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+      - ElementName: character_locomotion
+        ObjectType: 12
+        guid: 09671203fb4e4546802247b1e14b0122
+      - ElementName: footsteps
+        ObjectType: 12
+        guid: f83d3c9390cc534b8efc22eb927db47d
+      - ElementName: fs_char_rightfootwalk
+        ObjectType: 3
+        guid: 5725458425af1d4cb4990d0f8568369c
+      Path: Events\Default Work Unit\character_locomotion\footsteps\fs_char_rightfootwalk
+      maxAttenuation: 0
+      maxDuration: 0.37689582
+      minDuration: 0.3534479
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -540,8 +681,122 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a33dabdf725d1c4e8a8a501a1beef90b
     GuidInternal: 
-    m_lastTime: -8584852876372820931
-    List: []
+    m_lastTime: -8584852642816059983
+    List:
+    - name: Ground_Material
+      guid: e86c073bfabca04696f32b5cf749b5de
+      id: 3539622648
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a33dabdf725d1c4e8a8a501a1beef90b
+      - ElementName: Ground_Material
+        ObjectType: 11
+        guid: e86c073bfabca04696f32b5cf749b5de
+      Path: Switches\Default Work Unit\Ground_Material
+      values:
+      - name: Concrete
+        guid: e6615b693b16c149809d777a7c88d30d
+        id: 841620460
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a33dabdf725d1c4e8a8a501a1beef90b
+        - ElementName: Ground_Material
+          ObjectType: 11
+          guid: e86c073bfabca04696f32b5cf749b5de
+        - ElementName: Concrete
+          ObjectType: 10
+          guid: e6615b693b16c149809d777a7c88d30d
+      - name: Dirt
+        guid: 28f1cbd81c096142b9b1ca34829b2245
+        id: 2195636714
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a33dabdf725d1c4e8a8a501a1beef90b
+        - ElementName: Ground_Material
+          ObjectType: 11
+          guid: e86c073bfabca04696f32b5cf749b5de
+        - ElementName: Dirt
+          ObjectType: 10
+          guid: 28f1cbd81c096142b9b1ca34829b2245
+      - name: Grass
+        guid: 96f5ebe40de5244584bb925385527b58
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a33dabdf725d1c4e8a8a501a1beef90b
+        - ElementName: Ground_Material
+          ObjectType: 11
+          guid: e86c073bfabca04696f32b5cf749b5de
+        - ElementName: Grass
+          ObjectType: 10
+          guid: 96f5ebe40de5244584bb925385527b58
+      - name: Rock
+        guid: 0c1b8cfab4fd594dbdf432b3313b32fd
+        id: 2144363834
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a33dabdf725d1c4e8a8a501a1beef90b
+        - ElementName: Ground_Material
+          ObjectType: 11
+          guid: e86c073bfabca04696f32b5cf749b5de
+        - ElementName: Rock
+          ObjectType: 10
+          guid: 0c1b8cfab4fd594dbdf432b3313b32fd
+      - name: Sand
+        guid: c86661f7d12efb4a9488e3201534b065
+        id: 803837735
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a33dabdf725d1c4e8a8a501a1beef90b
+        - ElementName: Ground_Material
+          ObjectType: 11
+          guid: e86c073bfabca04696f32b5cf749b5de
+        - ElementName: Sand
+          ObjectType: 10
+          guid: c86661f7d12efb4a9488e3201534b065
+      - name: Wood
+        guid: 9b8d4ebdb07ae74d97e02b41da3d4fd2
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a33dabdf725d1c4e8a8a501a1beef90b
+        - ElementName: Ground_Material
+          ObjectType: 11
+          guid: e86c073bfabca04696f32b5cf749b5de
+        - ElementName: Wood
+          ObjectType: 10
+          guid: 9b8d4ebdb07ae74d97e02b41da3d4fd2
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -557,7 +812,7 @@ MonoBehaviour:
     m_lastTime: -8584852876372532795
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0a0000000b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

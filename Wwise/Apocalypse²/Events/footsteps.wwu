@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{933C3DF8-CC90-4B53-8EFC-22EB927DB47D}" SchemaVersion="119" RootDocumentID="{F32932FD-DFE7-4A3C-AA7C-C0F15EE2D49C}" ParentDocumentID="{03126709-4EFB-4645-8022-47B1E14B0122}">
+	<Events>
+		<WorkUnit Name="footsteps" ID="{933C3DF8-CC90-4B53-8EFC-22EB927DB47D}" OwnerID="{03126709-4EFB-4645-8022-47B1E14B0122}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="fs_char_leftfootrun" ID="{33281226-7606-421B-A102-EC12EAF8FE7D}">
+					<ChildrenList>
+						<Action Name="" ID="{39B3726C-0F1F-4BA7-BED7-1E9E45CC682E}" ShortID="39842698">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Left Foot" ID="{7D6F9477-EFA4-4969-9318-E78FFE808202}" WorkUnitID="{DC2F0085-AA0C-4645-A0FC-7C8E7E3EDA76}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="fs_char_rightfootrun" ID="{1634A642-B215-4835-A21C-FE912EDA1110}">
+					<ChildrenList>
+						<Action Name="" ID="{68A7B511-19C2-4F17-8004-9DBF2E4B10CF}" ShortID="98247">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Right Foot" ID="{229BB5D3-B91A-4107-9D75-35AED82F1E1D}" WorkUnitID="{DC2F0085-AA0C-4645-A0FC-7C8E7E3EDA76}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="fs_char_leftfootwalk" ID="{B2587317-C6D2-4ACF-9EEB-433B6A7B8743}">
+					<ChildrenList>
+						<Action Name="" ID="{12F45602-D1C6-4AE0-8732-2F8E35D7C1C2}" ShortID="1038235291">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walk Left Foot" ID="{8BCF0B36-7AB6-4554-90AE-ACBB12DF1A8A}" WorkUnitID="{DC2F0085-AA0C-4645-A0FC-7C8E7E3EDA76}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="fs_char_rightfootwalk" ID="{84452557-AF25-4C1D-B499-0D0F8568369C}">
+					<ChildrenList>
+						<Action Name="" ID="{7D49CB81-FB45-493C-9E52-E7AC3923FC1E}" ShortID="298899967">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walk Right Foot" ID="{A44C5630-0A51-44D5-9034-497D62F30425}" WorkUnitID="{DC2F0085-AA0C-4645-A0FC-7C8E7E3EDA76}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

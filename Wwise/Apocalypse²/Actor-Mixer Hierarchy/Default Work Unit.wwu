@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B9509F24-B284-404C-8819-70A8A2159A87}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{B9509F24-B284-404C-8819-70A8A2159A87}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B9509F24-B284-404C-8819-70A8A2159A87}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="char_locomotion" ID="{DC2F0085-AA0C-4645-A0FC-7C8E7E3EDA76}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{49788C5E-87E7-4AEB-9EA7-C36431472815}" SchemaVersion="119">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{49788C5E-87E7-4AEB-9EA7-C36431472815}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{49788C5E-87E7-4AEB-9EA7-C36431472815}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{A0C6F692-C08C-4DA9-B0A4-D97D07B1360B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="fs_char_leftfootrun" ID="{33281226-7606-421B-A102-EC12EAF8FE7D}" WorkUnitID="{933C3DF8-CC90-4B53-8EFC-22EB927DB47D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="fs_char_rightfootrun" ID="{1634A642-B215-4835-A21C-FE912EDA1110}" WorkUnitID="{933C3DF8-CC90-4B53-8EFC-22EB927DB47D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="fs_char_leftfootwalk" ID="{B2587317-C6D2-4ACF-9EEB-433B6A7B8743}" WorkUnitID="{933C3DF8-CC90-4B53-8EFC-22EB927DB47D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="fs_char_rightfootwalk" ID="{84452557-AF25-4C1D-B499-0D0F8568369C}" WorkUnitID="{933C3DF8-CC90-4B53-8EFC-22EB927DB47D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

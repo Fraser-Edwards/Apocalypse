@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{63347022-A6D3-2D9E-9CA9-1E1F36F8198B}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
+				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
+				<GameParameter Id="1351367891" Name="SS_Air_Fear"/>
+				<GameParameter Id="2648548617" Name="SS_Air_Month"/>
+				<GameParameter Id="3002758120" Name="SS_Air_Freefall"/>
+				<GameParameter Id="3074696722" Name="SS_Air_Size"/>
+				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay"/>
+				<GameParameter Id="3715662592" Name="SS_Air_Storm"/>
+				<GameParameter Id="3847924954" Name="SS_Air_Presence"/>
+				<GameParameter Id="4160247818" Name="SS_Air_Turbulence"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3539622648" Name="Ground_Material">
+					<Switches>
+						<Switch Id="803837735" Name="Sand"/>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2144363834" Name="Rock"/>
+						<Switch Id="2195636714" Name="Dirt"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6AB438C1-42C5-FE82-9668-E184F57586BF}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="4774963" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 10_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 10_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="30156209" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 31_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 31_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="35158134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 05_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 05_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="54064351" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 17_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 17_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="55524489" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 03_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 03_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="56352096" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 26_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 26_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="58054829" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 09_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 09_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="58322007" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 21_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 21_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="72664579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 14_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 14_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="73382122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 10_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 10_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="74778485" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 16_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 16_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="78106109" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 16_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 16_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="85241918" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 09_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 09_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="95012233" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 15_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 15_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="99282907" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 23_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 23_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="102501114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 13_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 13_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="117462911" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 02_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 02_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="118576476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 11_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 11_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="123972795" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 10_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 10_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="125477675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 21_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 21_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="130890243" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 29_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 29_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="153620924" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 06_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 06_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="157868637" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 21_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 21_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="163469839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 02_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 02_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="176441124" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 17_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 17_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="182517073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 06_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 06_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="202640581" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 08_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 08_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="208021068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 14_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 14_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="208385235" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 22_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 22_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="210151001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 29_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 29_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="213788102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 13_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 13_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="217992255" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 11_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 11_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="232359668" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 08_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 08_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="235179975" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 14_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 14_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="238724374" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 01_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 01_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="250660520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 04_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 04_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="256030154" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 06_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 06_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="259135100" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 05_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 05_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="275248527" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 12_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 12_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="278896070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 16_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 16_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="297472280" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 20_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 20_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="298577901" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 18_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 18_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="300255465" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 27_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 27_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="303483507" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 17_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 17_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="306745815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 08_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 08_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="307981283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 15_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 15_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="316383703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 02_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 02_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="317832263" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 14_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 14_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="321979941" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 17_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 17_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="325578964" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 07_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 07_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="343250690" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 27_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 27_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="349302283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 14_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 14_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="365275535" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 13_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 13_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="368422276" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 23_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 23_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="368848401" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 12_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 12_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="384990400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 10_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 10_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="403924039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 24_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 24_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="420128852" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 22_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 22_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="429743160" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 30_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 30_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="429815155" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 04_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 04_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="434032906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 01_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 01_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="434309346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 19_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 19_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="445262884" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 15_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 15_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="453944637" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 21_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 21_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="459611074" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 07_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 07_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="461391019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 03_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 03_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="464874285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 07_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 07_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="468062993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 26_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 26_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="477146368" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 20_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 20_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="483192090" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 19_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 19_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="489528206" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 02_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 02_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="495382777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 13_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 13_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="497307857" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 07_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 07_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="508324364" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 09_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 09_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="513251676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 19_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 19_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="523861777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 17_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 17_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="525083976" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 03_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 03_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="532847919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 05_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 05_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="546991553" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 25_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 25_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="550628872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 28_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 28_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="557468646" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 06_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 06_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="569290531" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 04_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 04_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="576000906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 22_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 22_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="587755872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 11_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 11_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="594717415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 04_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 04_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="603243421" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 11_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 11_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="609609149" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 25_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 25_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="613140822" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 14_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 14_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="618485165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 10_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 10_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="620979518" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 05_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 05_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="621336076" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 22_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 22_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="625335685" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 18_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 18_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="631092663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 19_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 19_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="635896165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 24_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 24_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="658779530" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 09_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 09_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="659568048" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 21_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 21_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="660769212" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 10_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 10_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="661669486" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 01_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 01_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="668746769" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 04_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 04_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="672357496" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 08_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 08_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="688803765" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 20_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 20_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="697539320" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 11_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 11_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="706879153" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 16_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 16_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="710447623" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 02_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 02_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="718308961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 01_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 01_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="722342357" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 23_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 23_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="729966175" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 06_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 06_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="741702958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 33_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 33_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="751355920" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 03_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 03_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="756644174" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 30_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 30_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="764564701" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 02_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 02_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="772430928" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 18_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 18_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="772871314" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 07_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 07_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="781988705" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 18_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 18_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="793391477" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 01_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 01_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="793564499" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 20_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 20_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="793791830" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 19_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 19_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="794759485" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 18_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 18_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="824484257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 26_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 26_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="827390008" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 23_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 23_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="830523275" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 11_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 11_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="832461995" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 03_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 03_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="836850729" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 05_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 05_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="839904197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 17_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 17_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="845989943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 19_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 19_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="854386253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 12_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 12_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="858594064" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 13_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 13_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="871690213" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 16_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 16_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="880341368" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 07_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 07_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="882956526" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 24_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 24_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="888601583" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Right Foot Trainers 09_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Right Foot Trainers 09_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="891961702" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 08_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 08_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="893059888" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 15_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 15_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="899818289" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 01_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 01_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="901374967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 03_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 03_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="910469063" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 12_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 12_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="912785344" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 06_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 06_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="913189399" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 16_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 16_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="916683516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 09_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 09_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="954541138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 12_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 12_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="956412930" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 26_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 26_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="962145670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 25_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 25_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="974686034" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 15_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 15_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="982055434" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 12_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Toe Trainers 12_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="992153556" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 34_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 34_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1009136199" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 28_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 28_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1011770834" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 13_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 13_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1012892565" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 18_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 18_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1016022933" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 04_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 04_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1026390409" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 25_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Running Left Foot Trainers 25_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1042213211" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 32_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 32_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1051302645" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 24_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 24_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1054788110" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 20_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 20_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1068876508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 08_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 08_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1072223307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 15_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Toe Trainers 15_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1072339146" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 05_FE_Apocalypse.wav</ShortName>
+					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 05_FE_Apocalypse_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3778170452" Name="fs_char_leftfootrun" DurationType="OneShot" DurationMin="0.20064583" DurationMax="0.384125">
+					<MediaRefs>
+						<MediaRef Id="4774963"/>
+						<MediaRef Id="56352096"/>
+						<MediaRef Id="74778485"/>
+						<MediaRef Id="117462911"/>
+						<MediaRef Id="176441124"/>
+						<MediaRef Id="202640581"/>
+						<MediaRef Id="235179975"/>
+						<MediaRef Id="275248527"/>
+						<MediaRef Id="325578964"/>
+						<MediaRef Id="403924039"/>
+						<MediaRef Id="420128852"/>
+						<MediaRef Id="429815155"/>
+						<MediaRef Id="461391019"/>
+						<MediaRef Id="508324364"/>
+						<MediaRef Id="532847919"/>
+						<MediaRef Id="603243421"/>
+						<MediaRef Id="631092663"/>
+						<MediaRef Id="659568048"/>
+						<MediaRef Id="661669486"/>
+						<MediaRef Id="688803765"/>
+						<MediaRef Id="827390008"/>
+						<MediaRef Id="858594064"/>
+						<MediaRef Id="912785344"/>
+						<MediaRef Id="974686034"/>
+						<MediaRef Id="1012892565"/>
+						<MediaRef Id="1026390409"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="569793762" Name="fs_char_leftfootwalk" DurationType="OneShot" DurationMin="0.33069792" DurationMax="0.33122918">
+					<MediaRefs>
+						<MediaRef Id="35158134"/>
+						<MediaRef Id="58054829"/>
+						<MediaRef Id="58322007"/>
+						<MediaRef Id="85241918"/>
+						<MediaRef Id="102501114"/>
+						<MediaRef Id="130890243"/>
+						<MediaRef Id="208021068"/>
+						<MediaRef Id="208385235"/>
+						<MediaRef Id="213788102"/>
+						<MediaRef Id="232359668"/>
+						<MediaRef Id="238724374"/>
+						<MediaRef Id="250660520"/>
+						<MediaRef Id="259135100"/>
+						<MediaRef Id="278896070"/>
+						<MediaRef Id="303483507"/>
+						<MediaRef Id="343250690"/>
+						<MediaRef Id="349302283"/>
+						<MediaRef Id="368422276"/>
+						<MediaRef Id="384990400"/>
+						<MediaRef Id="434309346"/>
+						<MediaRef Id="453944637"/>
+						<MediaRef Id="459611074"/>
+						<MediaRef Id="477146368"/>
+						<MediaRef Id="489528206"/>
+						<MediaRef Id="525083976"/>
+						<MediaRef Id="557468646"/>
+						<MediaRef Id="618485165"/>
+						<MediaRef Id="635896165"/>
+						<MediaRef Id="668746769"/>
+						<MediaRef Id="697539320"/>
+						<MediaRef Id="710447623"/>
+						<MediaRef Id="729966175"/>
+						<MediaRef Id="751355920"/>
+						<MediaRef Id="756644174"/>
+						<MediaRef Id="772430928"/>
+						<MediaRef Id="793564499"/>
+						<MediaRef Id="794759485"/>
+						<MediaRef Id="830523275"/>
+						<MediaRef Id="839904197"/>
+						<MediaRef Id="845989943"/>
+						<MediaRef Id="880341368"/>
+						<MediaRef Id="891961702"/>
+						<MediaRef Id="893059888"/>
+						<MediaRef Id="899818289"/>
+						<MediaRef Id="910469063"/>
+						<MediaRef Id="913189399"/>
+						<MediaRef Id="954541138"/>
+						<MediaRef Id="956412930"/>
+						<MediaRef Id="962145670"/>
+						<MediaRef Id="1009136199"/>
+						<MediaRef Id="1072223307"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="904669703" Name="fs_char_rightfootrun" DurationType="OneShot" DurationMin="0.229625" DurationMax="0.3658125">
+					<MediaRefs>
+						<MediaRef Id="72664579"/>
+						<MediaRef Id="73382122"/>
+						<MediaRef Id="99282907"/>
+						<MediaRef Id="157868637"/>
+						<MediaRef Id="217992255"/>
+						<MediaRef Id="256030154"/>
+						<MediaRef Id="297472280"/>
+						<MediaRef Id="321979941"/>
+						<MediaRef Id="365275535"/>
+						<MediaRef Id="368848401"/>
+						<MediaRef Id="445262884"/>
+						<MediaRef Id="513251676"/>
+						<MediaRef Id="569290531"/>
+						<MediaRef Id="609609149"/>
+						<MediaRef Id="621336076"/>
+						<MediaRef Id="625335685"/>
+						<MediaRef Id="672357496"/>
+						<MediaRef Id="706879153"/>
+						<MediaRef Id="718308961"/>
+						<MediaRef Id="764564701"/>
+						<MediaRef Id="772871314"/>
+						<MediaRef Id="824484257"/>
+						<MediaRef Id="832461995"/>
+						<MediaRef Id="836850729"/>
+						<MediaRef Id="882956526"/>
+						<MediaRef Id="888601583"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="113527723" Name="fs_char_rightfootwalk" DurationType="OneShot" DurationMin="0.3534479" DurationMax="0.37689582">
+					<MediaRefs>
+						<MediaRef Id="30156209"/>
+						<MediaRef Id="54064351"/>
+						<MediaRef Id="55524489"/>
+						<MediaRef Id="78106109"/>
+						<MediaRef Id="95012233"/>
+						<MediaRef Id="118576476"/>
+						<MediaRef Id="123972795"/>
+						<MediaRef Id="125477675"/>
+						<MediaRef Id="153620924"/>
+						<MediaRef Id="163469839"/>
+						<MediaRef Id="182517073"/>
+						<MediaRef Id="210151001"/>
+						<MediaRef Id="298577901"/>
+						<MediaRef Id="300255465"/>
+						<MediaRef Id="306745815"/>
+						<MediaRef Id="307981283"/>
+						<MediaRef Id="316383703"/>
+						<MediaRef Id="317832263"/>
+						<MediaRef Id="429743160"/>
+						<MediaRef Id="434032906"/>
+						<MediaRef Id="464874285"/>
+						<MediaRef Id="468062993"/>
+						<MediaRef Id="483192090"/>
+						<MediaRef Id="495382777"/>
+						<MediaRef Id="497307857"/>
+						<MediaRef Id="523861777"/>
+						<MediaRef Id="546991553"/>
+						<MediaRef Id="550628872"/>
+						<MediaRef Id="576000906"/>
+						<MediaRef Id="587755872"/>
+						<MediaRef Id="594717415"/>
+						<MediaRef Id="613140822"/>
+						<MediaRef Id="620979518"/>
+						<MediaRef Id="658779530"/>
+						<MediaRef Id="660769212"/>
+						<MediaRef Id="722342357"/>
+						<MediaRef Id="741702958"/>
+						<MediaRef Id="781988705"/>
+						<MediaRef Id="793391477"/>
+						<MediaRef Id="793791830"/>
+						<MediaRef Id="854386253"/>
+						<MediaRef Id="871690213"/>
+						<MediaRef Id="901374967"/>
+						<MediaRef Id="916683516"/>
+						<MediaRef Id="982055434"/>
+						<MediaRef Id="992153556"/>
+						<MediaRef Id="1011770834"/>
+						<MediaRef Id="1016022933"/>
+						<MediaRef Id="1042213211"/>
+						<MediaRef Id="1051302645"/>
+						<MediaRef Id="1054788110"/>
+						<MediaRef Id="1068876508"/>
+						<MediaRef Id="1072339146"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7C902900-5737-7EA0-67D7-54F26D57C532}</FileHash>
+</SoundBanksInfo>
