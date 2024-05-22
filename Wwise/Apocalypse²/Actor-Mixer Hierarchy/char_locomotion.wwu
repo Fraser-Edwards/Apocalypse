@@ -561,13 +561,6 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="FEETHmn-WOOD_Footsteps Running Left Foot Trainers 24_FE_Apocalypse" ID="{DF89BA25-453D-4138-89C6-687C6FA7A935}" ShortID="14895099">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>11</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3B9DD9B-FE58-42B6-9340-550EA35347EB}"/>
@@ -578,13 +571,6 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="FEETHmn-WOOD_Footsteps Running Left Foot Trainers 24_FE_Apocalypse" ID="{0216753E-4466-43BF-B8A6-37D3F0972E81}">
-															<PropertyList>
-																<Property Name="VolumeOffset" Type="Real64">
-																	<ValueList>
-																		<Value>24</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 24_FE_Apocalypse.wav</AudioFile>
 															<MediaIDList>
@@ -607,13 +593,6 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="FEETHmn-WOOD_Footsteps Running Left Foot Trainers 25_FE_Apocalypse" ID="{68394E91-FD47-433C-98F2-C4C95013A071}">
-															<PropertyList>
-																<Property Name="VolumeOffset" Type="Real64">
-																	<ValueList>
-																		<Value>24</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>FEETHmn-WOOD_Footsteps Running Left Foot Trainers 25_FE_Apocalypse.wav</AudioFile>
 															<MediaIDList>
