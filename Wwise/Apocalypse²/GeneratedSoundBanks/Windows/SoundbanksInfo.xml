@@ -174,7 +174,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{278AA76E-EA8F-D6FD-B9B7-F899ECC6FAF2}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{9ADF8B4D-6536-6757-60FD-618590107413}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -758,6 +758,10 @@
 					<ShortName>FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 34_FE_Apocalypse.wav</ShortName>
 					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Right Heel Trainers 34_FE_Apocalypse_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1005258422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMBLakeside_LeithLake_GL_Apocalypse.wav</ShortName>
+					<CachePath>SFX/AMBLakeside_LeithLake_GL_Apocalypse_818F3B66.wem</CachePath>
+				</File>
 				<File Id="1009136199" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 28_FE_Apocalypse.wav</ShortName>
 					<CachePath>SFX/FEETHmn-WOOD_Footsteps Walking Left Heel Trainers 28_FE_Apocalypse_818F3B66.wem</CachePath>
@@ -804,7 +808,12 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3778170452" Name="fs_char_leftfootrun" DurationType="OneShot" DurationMin="0.20064583" DurationMax="0.384125">
+				<Event Id="1356286463" Name="amb_lake" DurationType="OneShot" DurationMin="146.35901" DurationMax="146.35901">
+					<MediaRefs>
+						<MediaRef Id="1005258422"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3778170452" Name="fs_char_leftfootrun" DurationType="OneShot" DurationMin="0.20041415" DurationMax="0.38456902">
 					<MediaRefs>
 						<MediaRef Id="4774963"/>
 						<MediaRef Id="56352096"/>
@@ -834,7 +843,7 @@
 						<MediaRef Id="1026390409"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="569793762" Name="fs_char_leftfootwalk" DurationType="OneShot" DurationMin="0.33069792" DurationMax="0.33122918">
+				<Event Id="569793762" Name="fs_char_leftfootwalk" DurationType="OneShot" DurationMin="0.33043155" DurationMax="0.33149648">
 					<MediaRefs>
 						<MediaRef Id="35158134"/>
 						<MediaRef Id="58054829"/>
@@ -889,7 +898,7 @@
 						<MediaRef Id="1072223307"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="904669703" Name="fs_char_rightfootrun" DurationType="OneShot" DurationMin="0.229625" DurationMax="0.3658125">
+				<Event Id="904669703" Name="fs_char_rightfootrun" DurationType="OneShot" DurationMin="0.22935987" DurationMax="0.36623538">
 					<MediaRefs>
 						<MediaRef Id="72664579"/>
 						<MediaRef Id="73382122"/>
@@ -919,7 +928,7 @@
 						<MediaRef Id="888601583"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="113527723" Name="fs_char_rightfootwalk" DurationType="OneShot" DurationMin="0.3534479" DurationMax="0.37689582">
+				<Event Id="113527723" Name="fs_char_rightfootwalk" DurationType="OneShot" DurationMin="0.35315526" DurationMax="0.3772159">
 					<MediaRefs>
 						<MediaRef Id="30156209"/>
 						<MediaRef Id="54064351"/>
@@ -979,5 +988,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7751D754-C06C-0588-2BD8-0DE6CF625111}</FileHash>
+	<FileHash>{07205472-9313-A665-B97F-9D6A530D754A}</FileHash>
 </SoundBanksInfo>

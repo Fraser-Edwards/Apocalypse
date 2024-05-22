@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{F32932FD-DFE7-4A3C-AA7C-C0F15EE2D49C}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="character_locomotion" ID="{03126709-4EFB-4645-8022-47B1E14B0122}" PersistMode="Reference"/>
+				<WorkUnit Name="ambiences" ID="{F1A95760-293E-4BAF-B22C-F32F6FA1E5B8}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

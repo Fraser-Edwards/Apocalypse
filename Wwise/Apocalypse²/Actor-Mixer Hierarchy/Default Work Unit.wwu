@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{B9509F24-B284-404C-8819-70A8A2159A87}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="char_locomotion" ID="{DC2F0085-AA0C-4645-A0FC-7C8E7E3EDA76}" PersistMode="Reference"/>
+				<WorkUnit Name="ambiences" ID="{AC3B363A-D20C-4A16-BC68-744C5A58901D}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

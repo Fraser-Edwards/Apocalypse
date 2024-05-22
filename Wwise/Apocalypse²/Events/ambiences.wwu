@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F1A95760-293E-4BAF-B22C-F32F6FA1E5B8}" SchemaVersion="119" RootDocumentID="{F32932FD-DFE7-4A3C-AA7C-C0F15EE2D49C}" ParentDocumentID="{F32932FD-DFE7-4A3C-AA7C-C0F15EE2D49C}">
+	<Events>
+		<WorkUnit Name="ambiences" ID="{F1A95760-293E-4BAF-B22C-F32F6FA1E5B8}" OwnerID="{F32932FD-DFE7-4A3C-AA7C-C0F15EE2D49C}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="amb_lake" ID="{B99721C8-CA03-477C-BEFD-8CBD5964ADA6}">
+					<ChildrenList>
+						<Action Name="" ID="{98D630F6-3385-425C-BD26-744268530525}" ShortID="993785789">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_lake" ID="{F215A93D-0E38-4F3E-8E97-D46FE039C845}" WorkUnitID="{AC3B363A-D20C-4A16-BC68-744C5A58901D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

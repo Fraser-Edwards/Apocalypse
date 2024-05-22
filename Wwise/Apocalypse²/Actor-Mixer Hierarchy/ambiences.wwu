@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AC3B363A-D20C-4A16-BC68-744C5A58901D}" SchemaVersion="119" RootDocumentID="{B9509F24-B284-404C-8819-70A8A2159A87}" ParentDocumentID="{B9509F24-B284-404C-8819-70A8A2159A87}">
+	<AudioObjects>
+		<WorkUnit Name="ambiences" ID="{AC3B363A-D20C-4A16-BC68-744C5A58901D}" OwnerID="{B9509F24-B284-404C-8819-70A8A2159A87}" PersistMode="Nested">
+			<ChildrenList>
+				<BlendContainer Name="amb_lake" ID="{F215A93D-0E38-4F3E-8E97-D46FE039C845}" ShortID="689918207">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3B9DD9B-FE58-42B6-9340-550EA35347EB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1FC74561-2116-4312-AAD3-9708C30241DC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AMBLakeside_LeithLake_GL_Apocalypse" ID="{E7B30EE8-E99E-4BFB-AAF1-68B9F8790570}" ShortID="9488056">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3B9DD9B-FE58-42B6-9340-550EA35347EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1FC74561-2116-4312-AAD3-9708C30241DC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMBLakeside_LeithLake_GL_Apocalypse" ID="{3699977B-57BB-4DEB-892C-5CFA96218A5E}">
+									<Language>SFX</Language>
+									<AudioFile>AMBLakeside_LeithLake_GL_Apocalypse.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1005258422"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMBLakeside_LeithLake_GL_Apocalypse" ID="{3699977B-57BB-4DEB-892C-5CFA96218A5E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

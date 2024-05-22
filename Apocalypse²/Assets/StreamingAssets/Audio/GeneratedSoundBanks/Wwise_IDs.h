@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMB_LAKE = 1356286463U;
         static const AkUniqueID FS_CHAR_LEFTFOOTRUN = 3778170452U;
         static const AkUniqueID FS_CHAR_LEFTFOOTWALK = 569793762U;
         static const AkUniqueID FS_CHAR_RIGHTFOOTRUN = 904669703U;

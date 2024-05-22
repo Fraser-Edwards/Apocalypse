@@ -8,6 +8,7 @@
 						<ObjectRef Name="fs_char_leftfootrun" ID="{33281226-7606-421B-A102-EC12EAF8FE7D}" WorkUnitID="{933C3DF8-CC90-4B53-8EFC-22EB927DB47D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="fs_char_rightfootrun" ID="{1634A642-B215-4835-A21C-FE912EDA1110}" WorkUnitID="{933C3DF8-CC90-4B53-8EFC-22EB927DB47D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="fs_char_leftfootwalk" ID="{B2587317-C6D2-4ACF-9EEB-433B6A7B8743}" WorkUnitID="{933C3DF8-CC90-4B53-8EFC-22EB927DB47D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ambiences" ID="{F1A95760-293E-4BAF-B22C-F32F6FA1E5B8}" WorkUnitID="{F1A95760-293E-4BAF-B22C-F32F6FA1E5B8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="fs_char_rightfootwalk" ID="{84452557-AF25-4C1D-B499-0D0F8568369C}" WorkUnitID="{933C3DF8-CC90-4B53-8EFC-22EB927DB47D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
