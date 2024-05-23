@@ -60,29 +60,15 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.31872225
-        functionName: OnFootstep
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.7970205
-        functionName: OnFootstep
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.30174097
-        functionName: fs_char_leftfootwalk
+      - time: 0.33160767
+        functionName: fs_char_leftfoot_walk
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: d53147827506ca742bb92994a899c8dc, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.79429835
-        functionName: fs_char_rightfootwalk
+      - time: 0.81377745
+        functionName: fs_char_rightfoot_walk
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: d53147827506ca742bb92994a899c8dc, type: 3}
         floatParameter: 0
