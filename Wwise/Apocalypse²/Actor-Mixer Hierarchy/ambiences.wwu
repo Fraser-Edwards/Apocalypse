@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3B9DD9B-FE58-42B6-9340-550EA35347EB}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1FC74561-2116-4312-AAD3-9708C30241DC}"/>
+							<ObjectRef Name="Ambience Bus" ID="{C3B0D80B-26FD-4D1F-AB3F-36BEFFDB6B7A}" WorkUnitID="{1FC74561-2116-4312-AAD3-9708C30241DC}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -36,6 +36,28 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Water" ID="{DB8CEF01-09A0-446D-AF58-9CAA1F58BF76}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="NotUnderwater" ID="{D0E2BD77-CFE6-4189-BFE8-6C7D7D0278E0}"/>
+								<CustomState Name="" ID="{75188581-6BC3-4425-BC29-9B66BF230433}" ShortID="832194449"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Underwater" ID="{8431F4AF-D812-4FF2-8701-340D9E546101}"/>
+								<CustomState Name="" ID="{17AFC923-C671-4ACC-B6A6-A54448325AB1}" ShortID="279719739">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="60"/>
+										<Property Name="Pitch" Type="int32" Value="-50"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>

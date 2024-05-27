@@ -5,6 +5,49 @@
 			<ChildrenList>
 				<WorkUnit Name="character_locomotion" ID="{03126709-4EFB-4645-8022-47B1E14B0122}" PersistMode="Reference"/>
 				<WorkUnit Name="ambiences" ID="{F1A95760-293E-4BAF-B22C-F32F6FA1E5B8}" PersistMode="Reference"/>
+				<Event Name="Play_NPC_LifeCoach" ID="{0DD3E79A-C0F5-4D4C-888A-270787F51E57}">
+					<ChildrenList>
+						<Action Name="" ID="{F4B98BB1-E006-4D0B-A1AB-E27556504C55}" ShortID="5602896">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NPC_LifeCoach" ID="{BBB3029C-CA5E-4786-992D-34292D74DCA7}" WorkUnitID="{8A24A244-43EE-4904-855D-1168D300BC9D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SeaDeath" ID="{787BE4DD-6F13-408A-A0EC-17B844446819}">
+					<ChildrenList>
+						<Action Name="" ID="{1CEA992A-6FBD-4D91-9F8E-D52AC7627F03}" ShortID="1002726563">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SeaDeath" ID="{9B9B3E3E-856F-47B7-80E8-63068CF0752D}" WorkUnitID="{8A24A244-43EE-4904-855D-1168D300BC9D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Splash" ID="{00A6F32F-2D0C-4A83-A5E5-0EC8446F3BAD}">
+					<ChildrenList>
+						<Action Name="" ID="{010B9DDA-1725-42D4-8FE4-B190D79ADCDC}" ShortID="1072679753">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Splash" ID="{8A137E9B-D204-4DFB-9596-5A69F8904D03}" WorkUnitID="{8AC55788-4757-4F71-8FB4-8CF8717C469F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D4C8099E-8CED-4CE9-BC33-551E363B75E7}" ShortID="190752325">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Underwater" ID="{8431F4AF-D812-4FF2-8701-340D9E546101}" WorkUnitID="{B61103C8-5D8B-41C2-8D53-4ED4F3ABF0B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

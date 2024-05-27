@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2654748154	Water			\Default Work Unit\Water	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Water			
+	2213237662	Underwater	Water			
+	3216443627	NotUnderwater	Water			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
@@ -15,7 +23,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	3714968413	Dialogue Bus			\Default Work Unit\Master Audio Bus\Dialogue Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4202237879	Ambience Bus			\Default Work Unit\Master Audio Bus\Ambience Bus	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

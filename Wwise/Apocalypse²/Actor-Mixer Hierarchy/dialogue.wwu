@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8A24A244-43EE-4904-855D-1168D300BC9D}" SchemaVersion="119" RootDocumentID="{B9509F24-B284-404C-8819-70A8A2159A87}" ParentDocumentID="{B9509F24-B284-404C-8819-70A8A2159A87}">
+	<AudioObjects>
+		<WorkUnit Name="dialogue" ID="{8A24A244-43EE-4904-855D-1168D300BC9D}" OwnerID="{B9509F24-B284-404C-8819-70A8A2159A87}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="NPC_LifeCoach" ID="{A6DCE5AB-6747-4097-912B-6152F1674BE4}" ShortID="199368727">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="CloseVoice" ID="{8EC6FCE2-267B-4F27-A463-2875C837F22F}" WorkUnitID="{95F75EB5-65D1-4747-A03E-18DCD0272B39}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3B9DD9B-FE58-42B6-9340-550EA35347EB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Dialogue Bus" ID="{39695D3E-4A9B-4930-BAA2-372F7F90A974}" WorkUnitID="{1FC74561-2116-4312-AAD3-9708C30241DC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="NPC_LifeCoach" ID="{BBB3029C-CA5E-4786-992D-34292D74DCA7}" ShortID="602382219">
+							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3B9DD9B-FE58-42B6-9340-550EA35347EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1FC74561-2116-4312-AAD3-9708C30241DC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="NPC_LifeCoach_01" ID="{8041AEF6-E2F8-43BF-B1E2-08A0022D03A0}" ShortID="288234534">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3B9DD9B-FE58-42B6-9340-550EA35347EB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1FC74561-2116-4312-AAD3-9708C30241DC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NPC_LifeCoach_01" ID="{FA80F7CD-5297-482C-98E4-ED75217EE987}">
+											<Language>SFX</Language>
+											<AudioFile>NPC_LifeCoach_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="605289590"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="NPC_LifeCoach_01" ID="{FA80F7CD-5297-482C-98E4-ED75217EE987}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NPC_LifeCoach_02" ID="{E45D0111-A103-4A6A-A94B-EFD2705C37A8}" ShortID="547288159">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3B9DD9B-FE58-42B6-9340-550EA35347EB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1FC74561-2116-4312-AAD3-9708C30241DC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NPC_LifeCoach_02" ID="{3CCE0165-33E8-47EE-A4FC-C4BD9892D17E}">
+											<Language>SFX</Language>
+											<AudioFile>NPC_LifeCoach_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="975789844"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="NPC_LifeCoach_02" ID="{3CCE0165-33E8-47EE-A4FC-C4BD9892D17E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NPC_LifeCoach_03" ID="{24A7B734-925E-4516-88C9-0519F36BA71F}" ShortID="774833562">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3B9DD9B-FE58-42B6-9340-550EA35347EB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1FC74561-2116-4312-AAD3-9708C30241DC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NPC_LifeCoach_03" ID="{836F6696-844D-48E1-BF66-88C9FF2FFEF6}">
+											<Language>SFX</Language>
+											<AudioFile>NPC_LifeCoach_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="988923206"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="NPC_LifeCoach_03" ID="{836F6696-844D-48E1-BF66-88C9FF2FFEF6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="NPC_LifeCoach_01" ID="{8041AEF6-E2F8-43BF-B1E2-08A0022D03A0}" WorkUnitID="{8A24A244-43EE-4904-855D-1168D300BC9D}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="NPC_LifeCoach_02" ID="{E45D0111-A103-4A6A-A94B-EFD2705C37A8}" WorkUnitID="{8A24A244-43EE-4904-855D-1168D300BC9D}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="NPC_LifeCoach_03" ID="{24A7B734-925E-4516-88C9-0519F36BA71F}" WorkUnitID="{8A24A244-43EE-4904-855D-1168D300BC9D}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="DeathBam" ID="{B932DD3A-4E01-442F-98EB-37399948A5D0}" ShortID="629449595">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3B9DD9B-FE58-42B6-9340-550EA35347EB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Dialogue Bus" ID="{39695D3E-4A9B-4930-BAA2-372F7F90A974}" WorkUnitID="{1FC74561-2116-4312-AAD3-9708C30241DC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="SeaDeath" ID="{9B9B3E3E-856F-47B7-80E8-63068CF0752D}" ShortID="307453066">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>41</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3B9DD9B-FE58-42B6-9340-550EA35347EB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1FC74561-2116-4312-AAD3-9708C30241DC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="NPC_WaterDeath_01" ID="{D10C4E2F-7F87-4334-9E72-AC59424FDC7D}" ShortID="293405632">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3B9DD9B-FE58-42B6-9340-550EA35347EB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1FC74561-2116-4312-AAD3-9708C30241DC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NPC_WaterDeath_01" ID="{D4734385-7BEB-432F-A42C-F88BEBC4E72E}">
+											<Language>SFX</Language>
+											<AudioFile>NPC_WaterDeath_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="347446756"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="NPC_WaterDeath_01" ID="{D4734385-7BEB-432F-A42C-F88BEBC4E72E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{D5762B69-D1FB-4BEC-9585-C9B5B7616018}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-0.361928775816624"/>
+										<Property Name="PanY" Type="Real64" Value="0.323103746784196"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

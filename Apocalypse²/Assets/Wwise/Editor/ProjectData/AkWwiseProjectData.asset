@@ -303,8 +303,42 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6145c71f16211243aad39708c30241dc
     GuidInternal: 
-    m_lastTime: -8584852208840922743
+    m_lastTime: -8584847682152269829
     List:
+    - name: Ambience Bus
+      guid: 0bd8b0c3fd261f4dab3f36beffdb6b7a
+      id: 4202237879
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6145c71f16211243aad39708c30241dc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ambience Bus
+        ObjectType: 2
+        guid: 0bd8b0c3fd261f4dab3f36beffdb6b7a
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience Bus
+    - name: Dialogue Bus
+      guid: 3e5d69399b4a3049baa2372f7f90a974
+      id: 3714968413
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6145c71f16211243aad39708c30241dc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Dialogue Bus
+        ObjectType: 2
+        guid: 3e5d69399b4a3049baa2372f7f90a974
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dialogue Bus
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -331,7 +365,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 5e8c7849e787eb4a9ea7c36431472815
     GuidInternal: 
-    m_lastTime: -8584851951945531990
+    m_lastTime: -8584847544031701580
     List:
     - name: Main
       guid: 92f6c6a08cc0a94db0a4d97d07b1360b
@@ -411,8 +445,59 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
     GuidInternal: 
-    m_lastTime: -8584851951950822816
-    List: []
+    m_lastTime: -8584847609567973602
+    List:
+    - name: Play_NPC_LifeCoach
+      guid: 9ae7d30df5c04c4d888a270787f51e57
+      id: 2879234822
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+      - ElementName: Play_NPC_LifeCoach
+        ObjectType: 3
+        guid: 9ae7d30df5c04c4d888a270787f51e57
+      Path: Events\Default Work Unit\Play_NPC_LifeCoach
+      maxAttenuation: 25
+      maxDuration: 43.133835
+      minDuration: 30.279177
+    - name: Play_SeaDeath
+      guid: dde47b78136f8a40a0ec17b844446819
+      id: 563057831
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+      - ElementName: Play_SeaDeath
+        ObjectType: 3
+        guid: dde47b78136f8a40a0ec17b844446819
+      Path: Events\Default Work Unit\Play_SeaDeath
+      maxAttenuation: 0
+      maxDuration: 7.204052
+      minDuration: 7.204052
+    - name: Play_Splash
+      guid: 2ff3a6000c2d834aa5e50ec8446f3bad
+      id: 3948925255
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+      - ElementName: Play_Splash
+        ObjectType: 3
+        guid: 2ff3a6000c2d834aa5e50ec8446f3bad
+      Path: Events\Default Work Unit\Play_Splash
+      maxAttenuation: 0
+      maxDuration: 2.0003333
+      minDuration: 2.0003333
   - PhysicalPath: Events\footsteps.wwu
     PathAndIcons:
     - ElementName: Events
@@ -430,7 +515,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\character_locomotion\footsteps
     guid: f83d3c9390cc534b8efc22eb927db47d
     GuidInternal: 
-    m_lastTime: -8584852208841929504
+    m_lastTime: -8584847539898598286
     List:
     - name: fs_char_leftfootrun
       guid: 2612283306761b42a102ec12eaf8fe7d
@@ -453,7 +538,7 @@ MonoBehaviour:
         guid: 2612283306761b42a102ec12eaf8fe7d
       Path: Events\Default Work Unit\character_locomotion\footsteps\fs_char_leftfootrun
       maxAttenuation: 0
-      maxDuration: 0.38456902
+      maxDuration: 0.95783514
       minDuration: 0.20041415
     - name: fs_char_leftfootwalk
       guid: 177358b2d2c6cf4a9eeb433b6a7b8743
@@ -476,7 +561,7 @@ MonoBehaviour:
         guid: 177358b2d2c6cf4a9eeb433b6a7b8743
       Path: Events\Default Work Unit\character_locomotion\footsteps\fs_char_leftfootwalk
       maxAttenuation: 0
-      maxDuration: 0.33149648
+      maxDuration: 0.47294793
       minDuration: 0.33043155
     - name: fs_char_rightfootrun
       guid: 42a6341615b23548a21cfe912eda1110
@@ -499,8 +584,8 @@ MonoBehaviour:
         guid: 42a6341615b23548a21cfe912eda1110
       Path: Events\Default Work Unit\character_locomotion\footsteps\fs_char_rightfootrun
       maxAttenuation: 0
-      maxDuration: 0.36623538
-      minDuration: 0.22935987
+      maxDuration: 0.719925
+      minDuration: 0.20975752
     - name: fs_char_rightfootwalk
       guid: 5725458425af1d4cb4990d0f8568369c
       id: 113527723
@@ -522,7 +607,7 @@ MonoBehaviour:
         guid: 5725458425af1d4cb4990d0f8568369c
       Path: Events\Default Work Unit\character_locomotion\footsteps\fs_char_rightfootwalk
       maxAttenuation: 0
-      maxDuration: 0.3772159
+      maxDuration: 0.5268583
       minDuration: 0.35315526
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -703,8 +788,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: c80311b68b5dc2418d534ed4f3abf0b7
     GuidInternal: 
-    m_lastTime: -8584852208834624495
-    List: []
+    m_lastTime: -8584847617047289298
+    List:
+    - name: Water
+      guid: 01ef8cdba0096d44af589caa1f58bf76
+      id: 2654748154
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c80311b68b5dc2418d534ed4f3abf0b7
+      - ElementName: Water
+        ObjectType: 9
+        guid: 01ef8cdba0096d44af589caa1f58bf76
+      Path: States\Default Work Unit\Water
+      values:
+      - name: None
+        guid: 6f008fcbed34ca4f933170ee8bfa3285
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c80311b68b5dc2418d534ed4f3abf0b7
+        - ElementName: Water
+          ObjectType: 9
+          guid: 01ef8cdba0096d44af589caa1f58bf76
+        - ElementName: None
+          ObjectType: 8
+          guid: 6f008fcbed34ca4f933170ee8bfa3285
+      - name: NotUnderwater
+        guid: 77bde2d0e6cf8941bfe86c7d7d0278e0
+        id: 3216443627
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c80311b68b5dc2418d534ed4f3abf0b7
+        - ElementName: Water
+          ObjectType: 9
+          guid: 01ef8cdba0096d44af589caa1f58bf76
+        - ElementName: NotUnderwater
+          ObjectType: 8
+          guid: 77bde2d0e6cf8941bfe86c7d7d0278e0
+      - name: Underwater
+        guid: aff4318412d8f24f8701340d9e546101
+        id: 2213237662
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c80311b68b5dc2418d534ed4f3abf0b7
+        - ElementName: Water
+          ObjectType: 9
+          guid: 01ef8cdba0096d44af589caa1f58bf76
+        - ElementName: Underwater
+          ObjectType: 8
+          guid: aff4318412d8f24f8701340d9e546101
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -848,7 +999,7 @@ MonoBehaviour:
     m_lastTime: -8584852208834594817
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000007000000080000000a0000000b000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000b0000000c0000000d0000001000000011000000120000001300000014000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

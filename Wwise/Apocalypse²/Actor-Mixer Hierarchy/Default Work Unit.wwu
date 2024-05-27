@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<WorkUnit Name="char_locomotion" ID="{DC2F0085-AA0C-4645-A0FC-7C8E7E3EDA76}" PersistMode="Reference"/>
 				<WorkUnit Name="ambiences" ID="{AC3B363A-D20C-4A16-BC68-744C5A58901D}" PersistMode="Reference"/>
+				<WorkUnit Name="dialogue" ID="{8A24A244-43EE-4904-855D-1168D300BC9D}" PersistMode="Reference"/>
+				<WorkUnit Name="SFX" ID="{8AC55788-4757-4F71-8FB4-8CF8717C469F}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

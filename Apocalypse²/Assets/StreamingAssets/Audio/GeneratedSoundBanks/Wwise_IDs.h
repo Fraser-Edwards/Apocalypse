@@ -18,7 +18,26 @@ namespace AK
         static const AkUniqueID FS_CHAR_LEFTFOOTWALK = 569793762U;
         static const AkUniqueID FS_CHAR_RIGHTFOOTRUN = 904669703U;
         static const AkUniqueID FS_CHAR_RIGHTFOOTWALK = 113527723U;
+        static const AkUniqueID PLAY_NPC_LIFECOACH = 2879234822U;
+        static const AkUniqueID PLAY_SEADEATH = 563057831U;
+        static const AkUniqueID PLAY_SPLASH = 3948925255U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace WATER
+        {
+            static const AkUniqueID GROUP = 2654748154U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NOTUNDERWATER = 3216443627U;
+                static const AkUniqueID UNDERWATER = 2213237662U;
+            } // namespace STATE
+        } // namespace WATER
+
+    } // namespace STATES
 
     namespace SWITCHES
     {
@@ -61,6 +80,8 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID AMBIENCE_BUS = 4202237879U;
+        static const AkUniqueID DIALOGUE_BUS = 3714968413U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
 
