@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77df7d8ecd2801140a9515badb36c9d6, type: 3}
+  m_Script: {fileID: 11500000, guid: 119c491b743fc3946b6457e7d4bd3636, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: bcc035af9fe2e144b9650528ecc13b45
     GuidInternal: 
-    m_lastTime: -8584852208834589684
+    m_lastTime: -8584852876372790924
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
     PathAndIcons:
@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8584852208834575543
+    m_lastTime: -8584865907361462952
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -418,35 +418,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 146.35901
       minDuration: 146.35901
-  - PhysicalPath: Events\character_locomotion.wwu
-    PathAndIcons:
-    - ElementName: Events
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: Default Work Unit
-      ObjectType: 12
-      guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
-    - ElementName: character_locomotion
-      ObjectType: 12
-      guid: 09671203fb4e4546802247b1e14b0122
-    ParentPath: Events\Default Work Unit\character_locomotion
-    guid: 09671203fb4e4546802247b1e14b0122
-    GuidInternal: 
-    m_lastTime: -8584852208841939474
-    List: []
-  - PhysicalPath: Events\Default Work Unit.wwu
-    PathAndIcons:
-    - ElementName: Events
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: Default Work Unit
-      ObjectType: 12
-      guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
-    ParentPath: Events\Default Work Unit
-    guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
-    GuidInternal: 
-    m_lastTime: -8584847609567973602
-    List:
     - name: Play_NPC_LifeCoach
       guid: 9ae7d30df5c04c4d888a270787f51e57
       id: 2879234822
@@ -498,6 +469,35 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.0003333
       minDuration: 2.0003333
+  - PhysicalPath: Events\character_locomotion.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+    - ElementName: character_locomotion
+      ObjectType: 12
+      guid: 09671203fb4e4546802247b1e14b0122
+    ParentPath: Events\Default Work Unit\character_locomotion
+    guid: 09671203fb4e4546802247b1e14b0122
+    GuidInternal: 
+    m_lastTime: -8584852642815616578
+    List: []
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+    ParentPath: Events\Default Work Unit
+    guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+    GuidInternal: 
+    m_lastTime: -8584847609567973602
+    List: []
   - PhysicalPath: Events\footsteps.wwu
     PathAndIcons:
     - ElementName: Events
@@ -621,7 +621,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: d1a12ba5d67ca94d913aaa4d2b65d4e8
     GuidInternal: 
-    m_lastTime: -8584852208841790417
+    m_lastTime: -8584852876372457765
     List: []
   - PhysicalPath: Game Parameters\Factory Soundseed Air Game Syncs.wwu
     PathAndIcons:
@@ -634,7 +634,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Factory Soundseed Air Game Syncs
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8584852208841780442
+    m_lastTime: -8584865906213640384
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -868,7 +868,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a33dabdf725d1c4e8a8a501a1beef90b
     GuidInternal: 
-    m_lastTime: -8584852208834604548
+    m_lastTime: -8584852642816059983
     List:
     - name: Ground_Material
       guid: e86c073bfabca04696f32b5cf749b5de
@@ -996,10 +996,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 42ead45e0893fc49987148a5dc5e5af8
     GuidInternal: 
-    m_lastTime: -8584852208834594817
+    m_lastTime: -8584852876372532795
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000b0000000c0000000d0000001000000011000000120000001300000014000000
+  ExpandedWaapiItemIds: 0500000006000000070000000f00000010000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

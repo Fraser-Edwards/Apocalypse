@@ -81,3 +81,5 @@ MonoBehaviour:
   m_Capacity: 2147483647
   m_Prefabs:
   - {fileID: 5421497171757288737, guid: 94ab6a62c6448474b98df92b90b3e798, type: 3}
+  - {fileID: 7734136952148524409, guid: e131cb4687cd9453fbc948446bf72381, type: 3}
+  - {fileID: 5339541293774146310, guid: e131cb4687cd9453fbc948446bf72381, type: 3}
