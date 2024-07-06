@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: bcc035af9fe2e144b9650528ecc13b45
     GuidInternal: 
-    m_lastTime: -8584852876372790924
+    m_lastTime: -8584813436353292419
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
     PathAndIcons:
@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8584865907361462952
+    m_lastTime: -8584813436353282407
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6145c71f16211243aad39708c30241dc
     GuidInternal: 
-    m_lastTime: -8584847682152269829
+    m_lastTime: -8584813436354083565
     List:
     - name: Ambience Bus
       guid: 0bd8b0c3fd261f4dab3f36beffdb6b7a
@@ -365,7 +365,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 5e8c7849e787eb4a9ea7c36431472815
     GuidInternal: 
-    m_lastTime: -8584847544031701580
+    m_lastTime: -8584813436353302424
     List:
     - name: Main
       guid: 92f6c6a08cc0a94db0a4d97d07b1360b
@@ -396,7 +396,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\ambiences
     guid: 6057a9f13e29af4bb22cf32f6fa1e5b8
     GuidInternal: 
-    m_lastTime: -8584851951950795823
+    m_lastTime: -8584813436356426902
     List:
     - name: amb_lake
       guid: c82197b903ca7c47befd8cbd5964ada6
@@ -418,6 +418,35 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 146.35901
       minDuration: 146.35901
+  - PhysicalPath: Events\character_locomotion.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+    - ElementName: character_locomotion
+      ObjectType: 12
+      guid: 09671203fb4e4546802247b1e14b0122
+    ParentPath: Events\Default Work Unit\character_locomotion
+    guid: 09671203fb4e4546802247b1e14b0122
+    GuidInternal: 
+    m_lastTime: -8584813436356426902
+    List: []
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+    ParentPath: Events\Default Work Unit
+    guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
+    GuidInternal: 
+    m_lastTime: -8584813436356436915
+    List:
     - name: Play_NPC_LifeCoach
       guid: 9ae7d30df5c04c4d888a270787f51e57
       id: 2879234822
@@ -469,35 +498,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.0003333
       minDuration: 2.0003333
-  - PhysicalPath: Events\character_locomotion.wwu
-    PathAndIcons:
-    - ElementName: Events
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: Default Work Unit
-      ObjectType: 12
-      guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
-    - ElementName: character_locomotion
-      ObjectType: 12
-      guid: 09671203fb4e4546802247b1e14b0122
-    ParentPath: Events\Default Work Unit\character_locomotion
-    guid: 09671203fb4e4546802247b1e14b0122
-    GuidInternal: 
-    m_lastTime: -8584852642815616578
-    List: []
-  - PhysicalPath: Events\Default Work Unit.wwu
-    PathAndIcons:
-    - ElementName: Events
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: Default Work Unit
-      ObjectType: 12
-      guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
-    ParentPath: Events\Default Work Unit
-    guid: fd3229f3e7df3c4aaa7cc0f15ee2d49c
-    GuidInternal: 
-    m_lastTime: -8584847609567973602
-    List: []
   - PhysicalPath: Events\footsteps.wwu
     PathAndIcons:
     - ElementName: Events
@@ -515,7 +515,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\character_locomotion\footsteps
     guid: f83d3c9390cc534b8efc22eb927db47d
     GuidInternal: 
-    m_lastTime: -8584847539898598286
+    m_lastTime: -8584813436356426902
     List:
     - name: fs_char_leftfootrun
       guid: 2612283306761b42a102ec12eaf8fe7d
@@ -621,7 +621,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: d1a12ba5d67ca94d913aaa4d2b65d4e8
     GuidInternal: 
-    m_lastTime: -8584852876372457765
+    m_lastTime: -8584813436356426902
     List: []
   - PhysicalPath: Game Parameters\Factory Soundseed Air Game Syncs.wwu
     PathAndIcons:
@@ -634,7 +634,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Factory Soundseed Air Game Syncs
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8584865906213640384
+    m_lastTime: -8584813436356426902
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -788,7 +788,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: c80311b68b5dc2418d534ed4f3abf0b7
     GuidInternal: 
-    m_lastTime: -8584847617047289298
+    m_lastTime: -8584813436353292419
     List:
     - name: Water
       guid: 01ef8cdba0096d44af589caa1f58bf76
@@ -868,7 +868,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a33dabdf725d1c4e8a8a501a1beef90b
     GuidInternal: 
-    m_lastTime: -8584852642816059983
+    m_lastTime: -8584813436353292419
     List:
     - name: Ground_Material
       guid: e86c073bfabca04696f32b5cf749b5de
@@ -996,7 +996,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 42ead45e0893fc49987148a5dc5e5af8
     GuidInternal: 
-    m_lastTime: -8584852876372532795
+    m_lastTime: -8584813436353292419
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 0500000006000000070000000f00000010000000

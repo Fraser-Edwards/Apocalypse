@@ -36,15 +36,15 @@ public class Player : MonoBehaviour
         Health = 100;
         Time.timeScale = 1;
     }
-    private void Update()
-    {
-        KillCount.text = WinZombieAmount.ToString();
-        if(WinZombieAmount >= 20)
-        {
-            WinPanel.SetActive(true);
-            Time.timeScale = 0;
-        }
-    }
+    // private void Update()
+    // {
+    //     KillCount.text = WinZombieAmount.ToString();
+    //     if(WinZombieAmount >= 20)
+    //     {
+    //         WinPanel.SetActive(true);
+    //         Time.timeScale = 0;
+    //     }
+    // }
     public void TakeDamage(int damage)
     {
         previousHealth = Health;

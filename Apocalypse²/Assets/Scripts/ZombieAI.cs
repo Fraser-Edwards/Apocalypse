@@ -24,6 +24,19 @@ public class ZombieAI : MonoBehaviour
 
     private bool isDead;
 
+    public bool IsEventZombie
+    {
+        get => isEventZombie;
+        set => isEventZombie = value;
+    }
+    private bool isEventZombie;
+
+    public SwarmManager SwarmManager
+    {
+        set => m_SwarmManager = value;
+    }
+    private SwarmManager m_SwarmManager = null;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -37,27 +50,44 @@ public class ZombieAI : MonoBehaviour
         if (isDead) return;
 
         float distanceToPlayer = Vector3.Distance(player.position, transform.position);
-
         HealthBar.value = Health;
-
+        
         if (Health <= 0)
         {
             Die();
         }
-        else if (distanceToPlayer <= attackDistance)
+        
+        if (isEventZombie)
         {
-            agent.isStopped = true;
-            AttackPlayer();
-        }
-        else if (distanceToPlayer <= chaseDistance)
-        {
-            agent.isStopped = false;
-            ChasePlayer();
+            if (distanceToPlayer <= attackDistance)
+            {
+                agent.isStopped = true;
+                AttackPlayer();
+            }
+            else
+            {
+                agent.isStopped = false;
+                ChasePlayer();
+            }
         }
         else
         {
-            agent.isStopped = false;
-            Wander();
+            
+            if (distanceToPlayer <= attackDistance)
+            {
+                agent.isStopped = true;
+                AttackPlayer();
+            }
+            else if (distanceToPlayer <= chaseDistance)
+            {
+                agent.isStopped = false;
+                ChasePlayer();
+            }
+            else
+            {
+                agent.isStopped = false;
+                Wander();
+            }
         }
     }
 
@@ -104,6 +134,11 @@ public class ZombieAI : MonoBehaviour
 
     void Die()
     {
+        if (m_SwarmManager != null)
+        {
+            m_SwarmManager.IncreaseKillCount();
+        }
+        
         isDead = true;
         animator.SetBool("Attack", false);
         animator.SetBool("Walk", false);
